@@ -3,17 +3,17 @@ import java.util.ArrayList;
 public class MaxThief {
 
     public static void main(String[] args) {
-        int k, n;
+        int k;
 
-        char policeTheifArray[] = {'P', 'T', 'T', 'P', 'T'};
+        char[] policeThiefArray = {'P', 'T', 'T', 'P', 'T'};
         k = 2;
 
-        System.out.println("Maximum thieves caught for {P, T, T, P, T}: " + MaxThief.policeCatchThief(policeTheifArray,k));
+        System.out.println("Maximum thieves caught for {P, T, T, P, T}: " + MaxThief.policeCatchThief(policeThiefArray,k));
 
-        char policeTheifArray1[] = {'T', 'T', 'P', 'P', 'T', 'P'};
+        char[] policeThiefArray1 = {'T', 'T', 'P', 'P', 'T', 'P'};
         k = 2;
 
-        System.out.println("Maximum thieves caught for {T, T, P, P, T,P}: " + MaxThief.policeCatchThief(policeTheifArray1, k));
+        System.out.println("Maximum thieves caught for {T, T, P, P, T,P}: " + MaxThief.policeCatchThief(policeThiefArray1, k));
 
     }
 
