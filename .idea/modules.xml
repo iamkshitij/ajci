@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/chap01-data-structures.iml" filepath="$PROJECT_DIR$/chap01-data-structures/chap01-data-structures.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/graph/graph.iml" filepath="$PROJECT_DIR$/chap01-data-structures/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/hashFunctions/hashFunctions.iml" filepath="$PROJECT_DIR$/chap01-data-structures/hashFunctions/hashFunctions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/linkedList/linkedList.iml" filepath="$PROJECT_DIR$/chap01-data-structures/linkedList/linkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/linkedlist.iml" filepath="$PROJECT_DIR$/chap01-data-structures/linkedlist.iml" />
     </modules>
   </component>
 </project>
