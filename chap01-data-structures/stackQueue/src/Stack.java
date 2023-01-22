@@ -12,7 +12,7 @@ public class Stack<V> {
         arr = (V[]) new Object[maxSize];
     }
 
-    private int getMaxSize(){
+    public int getMaxSize(){
         return maxSize;
     }
 
