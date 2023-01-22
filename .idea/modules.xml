@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/hashFunctions/hashFunctions.iml" filepath="$PROJECT_DIR$/chap01-data-structures/hashFunctions/hashFunctions.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/linkedList/linkedList.iml" filepath="$PROJECT_DIR$/chap01-data-structures/linkedList/linkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/linkedlist.iml" filepath="$PROJECT_DIR$/chap01-data-structures/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap01-data-structures/stackQueue/stackQueue.iml" filepath="$PROJECT_DIR$/chap01-data-structures/stackQueue/stackQueue.iml" />
     </modules>
   </component>
 </project>
