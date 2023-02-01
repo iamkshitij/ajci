@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class ArraySubset {
@@ -12,9 +13,22 @@ public class ArraySubset {
 
 
         boolean res = isSubset(arr1,arr2);
-        System.out.println(res);
+        boolean res1 = isSubset2(arr1, arr2);
+        //System.out.println(res);
+        System.out.println(res1);
     }
 
+    public static boolean isSubset2(int[] arr1, int[] arr2){
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for (int arr: arr1) list.add(arr);
+
+        for (int arr: arr2) {
+            if(list.contains(arr)) list.remove(Integer.valueOf(arr));
+            else return false;
+        }
+        return true;
+    }
     public static boolean isSubset(int[] arr1, int[] arr2){
 
         HashSet<Integer> hs = new HashSet();
