@@ -17,7 +17,7 @@ public class Graph {
     public void addEdge(int source, int destination){
         this.adjacencyList[source].insertAtEnd(destination);
         // undirected graph
-        //this.adjacencyList[destination].insertAtEnd(source);
+        this.adjacencyList[destination].insertAtEnd(source);
     }
 
     public void printGraph()
